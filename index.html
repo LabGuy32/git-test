@@ -28,8 +28,8 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>  
-                <div class="col-md-4 col-xl-2 tm-4">
-                    <a href="#reserveForm"><button class="btn btn-primary btn-lg text-nowrap">Reserve Campsite</button></a>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <a href="#reserveForm" class="btn btn-info btn-lg text-nowrap">Reserve Campsite</a>
                 </div>  
             </div>
         </div>
@@ -38,7 +38,6 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,7 +84,7 @@
         </div>    
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="align-items-center">Our Community Partners</h2>
+                <h2 class="text-sm-right">Our Community Partners</h2>
             </div>    
             <div class="col">
                 <div class="media">
@@ -107,7 +106,7 @@
                         <div class="row form-group">
                             <label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
                             <div class="col">
-                                <select class="form-control" name="nuCampers" id="nuCampers">
+                                <select class="form-control" name="numCampers" id="numCampers">
                                     <option>Select...</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -120,12 +119,12 @@
                         </div>
                         <div class="row form-group">
                             <label class="col-sm-6" for="date">Date</label>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-form-label">
                                 <input type="date" id="date" name="date" placeholder="Date">
                             </div>
                         </div>
-                        <div class="row form">
-                            <div class="col">
+                        <div class="row">
+                            <div class="col form-group">
                                 <button class="btn btn-primary" type="submit">Search</button>
                             </div>
                         </div>
@@ -165,9 +164,9 @@
     </footer>
 
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
